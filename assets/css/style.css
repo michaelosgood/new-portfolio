@@ -41,7 +41,9 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
-/* 3 Horizontal Lines */
+
+/* nav (3 horizontal lines) */
+
 #lines {
   font-size: 50px;
   cursor: pointer;
@@ -229,7 +231,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #000000;
   border-bottom: 0;
 }
 
