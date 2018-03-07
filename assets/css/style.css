@@ -6,7 +6,9 @@ body {
   color: #777;
   background: #ffffff;
 }
-
+.wrapper {
+  text-align: left;
+}
 /* Side Navbar */
 .sidenav {
   height: 100%;
