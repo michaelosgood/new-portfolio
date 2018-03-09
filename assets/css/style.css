@@ -97,52 +97,6 @@ h2, h3 {
   font-size: 22px;
 }
 
-/* header */
-
-#masthead {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
-}
-
-#logo {
-  float: left;
-  width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  background: #000000;
-}
-
-nav {
-  float: right;
-  margin-top: 25px;
-}
-
-nav a {
-  display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
-}
-
-nav a:first-child {
-  border-left: 0 none;
-}
-
 /* footer */
 
 footer {
@@ -301,13 +255,6 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  nav {
-    margin-right: 10%;
-  }
-
-  #logo {
-    margin-left: 0;
-  }
   /*Portfolio*/
   .work {
     width:100%;
@@ -335,13 +282,6 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  nav {
-    margin-right: 10%;
-  }
-
-  #logo {
-    margin-left: 0;
-  }
   /*Portfolio*/
   .work {
     width:100%;
@@ -369,13 +309,6 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  nav {
-    margin-right: 10%;
-  }
-
-  #logo {
-    margin-left: 0;
-  }
   /*Portfolio*/
   .work {
     width:100%;
@@ -418,14 +351,6 @@ button[type=submit] {
     text-align: center;
   }
 
-
-  nav {
-    margin-right: 10%;
-  }
-
-  #logo {
-    margin-left: 10%;
-  }
   /*Portfolio*/
   .work {
     width:100%;
@@ -451,10 +376,6 @@ button[type=submit] {
     max-width:100%;
   }
 
-  #logo {
-    margin-left: 8%;
-  }
-
   .container {
     width:100%;
   }
@@ -464,10 +385,6 @@ button[type=submit] {
     float:left;
     max-width:100%;
     text-align: center;
-  }
-  
-  nav {
-    margin-right:10%;
   }
   
   #connect {
@@ -498,22 +415,6 @@ button[type=submit] {
   -still need to figure out how to make the portfolio images center */
 @media screen and (max-width:640px) {
   
-  header {
-    position: static;
-  }
-
-  #logo {
-    width: 100%;
-    margin-left:0%;
-  }
-  
-  nav {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-right: 0%;
-  }
-
   #main-container {
     position: static;
     padding-top:180px;
