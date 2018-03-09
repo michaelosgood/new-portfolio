@@ -44,8 +44,7 @@ body {
   margin-left: 50px;
 }
 
-/* nav (3 horizontal lines) */
-
+/* 3 horizontal lines (nav) */
 #lines {
   font-size: 50px;
   cursor: pointer;
@@ -64,7 +63,6 @@ body {
 }
 
 /* general */
-
 .container {
   width: 100%;
   max-width: 960px;
@@ -98,7 +96,6 @@ h2, h3 {
 }
 
 /* footer */
-
 footer {
   position: static;
   width: 100%;
@@ -111,7 +108,6 @@ footer {
 }
 
 /* sidebar */
-
 .sidebar {
   float: right;
   width: 100%;
@@ -142,7 +138,6 @@ h3,
 }
 
 /* main */
-
 #main-container {
   padding-top: 130px;
 }
@@ -158,7 +153,6 @@ h3,
 }
 
 /* portfolio page */
-
 .work {
   position: relative;
   float: left;
@@ -200,7 +194,6 @@ h3,
 }
 
 /* contact page */
-
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -309,7 +302,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /*Portfolio*/
+  /* Portfolio */
   .work {
     width:100%;
   }
@@ -351,7 +344,7 @@ button[type=submit] {
     text-align: center;
   }
 
-  /*Portfolio*/
+  /* Portfolio */
   .work {
     width:100%;
   }
@@ -411,10 +404,8 @@ button[type=submit] {
     font-size: 15px !important;
   }
 }
-/* For screens that are 640px or smaller 
-  -still need to figure out how to make the portfolio images center */
+/* For screens that are 640px or smaller */
 @media screen and (max-width:640px) {
-  
   #main-container {
     position: static;
     padding-top:180px;
