@@ -232,6 +232,14 @@ button[type=submit] {
   border: 0 none;
 }
 
+.btn-custom {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #000000;
+}
+
 /* ---------Beginning of Media Queries--------------*/
 @media screen and (max-width:2000px) {
   * {
@@ -248,7 +256,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /*Portfolio*/
+  /* Portfolio */
   .work {
     width:100%;
   }
@@ -275,7 +283,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /*Portfolio*/
+  /* Portfolio */
   .work {
     width:100%;
   }
