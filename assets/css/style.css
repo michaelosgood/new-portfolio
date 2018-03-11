@@ -1,6 +1,6 @@
 /* Responsive-Portfolio */
 
-/* Styling that applies for all pages */
+/* General */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -11,6 +11,39 @@ body {
 .wrapper {
   text-align: left;
 }
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #000000;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+}
+
+h2, h3 {
+  font-size: 22px;
+}
+
 /* Side Navbar */
 .sidenav {
   height: 100%;
@@ -46,46 +79,12 @@ body {
   margin-left: 50px;
 }
 
-/* 3 horizontal lines (nav) */
 #lines {
   font-size: 50px;
   cursor: pointer;
   margin-left: 18px;
   position: fixed;
 
-}
-
-/* general */
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-}
-
-h1, h2, h3, p {
-  margin-bottom: 20px;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-h1, h2, h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #000000;
-}
-
-h1 {
-  padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #ddd;
-}
-
-h2, h3 {
-  font-size: 22px;
 }
 
 /* footer */
@@ -355,6 +354,8 @@ button[type=submit] {
   .work {
     width:100%;
   }
+
+  /* Footer */
   footer {
     position: static;
     bottom:0;
@@ -440,8 +441,9 @@ button[type=submit] {
   .auth-image {
     width:95%;
   }
-  
-  footer {
+
+/* Footer */
+    footer {
     position: static;
   }
  
