@@ -1,4 +1,6 @@
 /* Responsive-Portfolio */
+
+/* Styling that applies for all pages */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -51,15 +53,6 @@ body {
   margin-left: 18px;
   position: fixed;
 
-}
-
-@media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
-}
-
-* {
-  box-sizing: border-box;
 }
 
 /* general */
@@ -139,7 +132,8 @@ h3,
 
 /* main */
 #main-container {
-  padding-top: 130px;
+  padding-top: 5%;
+  padding-left: 3%;
 }
 
 .main-section {
@@ -352,12 +346,17 @@ button[type=submit] {
     text-align: center;
   }
 
+  .btn-custom {
+    width: 100%;
+    margin-left: 75%;
+  }
+
   /* Portfolio */
   .work {
     width:100%;
   }
   footer {
-    position:static;
+    position: static;
     bottom:0;
     width:100%;
   }
@@ -374,18 +373,22 @@ button[type=submit] {
     margin-right:auto;
   }
   .main-section {
-    max-width:100%;
+    max-width: 100%;
   }
 
   .container {
-    width:100%;
+    width: 100%;
   }
 
   .sidebar {
     width: 100%;
     float:left;
-    max-width:100%;
+    max-width: 100%;
     text-align: center;
+  }
+
+  .btn-custom {
+    margin-left: 65%;
   }
   
   #connect {
@@ -395,8 +398,8 @@ button[type=submit] {
   }
 
   footer {
-    bottom:0;
-    width:100%;
+    bottom: 0;
+    width: 100%;
   }
   /* Portfolio */
   .work {
@@ -416,7 +419,8 @@ button[type=submit] {
 @media screen and (max-width:640px) {
   #main-container {
     position: static;
-    padding-top:180px;
+    padding-top: 5%;
+    padding-left: 10%;
     width: 100%;
     text-align: left;
     font-size: 15px;
@@ -428,13 +432,17 @@ button[type=submit] {
     max-width:100%;
     text-align: center;
   }
+
+  .btn-custom {
+    margin-left: 45%;
+  }
   
   .auth-image {
     width:95%;
   }
   
   footer {
-    position:static;
+    position: static;
   }
  
   /* Portfolio */
@@ -447,5 +455,15 @@ button[type=submit] {
     line-height: 10px;
     margin: 10px 0px 15px;
     background: transparent !important;
+  }
+}
+
+/* Side Navbar( */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
   }
 }
