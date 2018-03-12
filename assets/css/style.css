@@ -468,6 +468,9 @@ button[type=submit] {
 
 /* For screens that are 450px or smaller */
 @media screen and (max-width: 450px) {
+  body {
+    margin: -4% !important;
+  }
   
   #main-container {
     max-width: 100%;
@@ -477,6 +480,7 @@ button[type=submit] {
   }
   .main-section {
     max-width: 100%;
+    padding: 15px;
   }
 
   /* project on portfolio.html */
