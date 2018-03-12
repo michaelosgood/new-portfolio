@@ -485,7 +485,7 @@ button[type=submit] {
 
   /* project on portfolio.html */
   .work {
-    height: 180px;
+    height: auto;
   }
 
   /* resume button on contact.html */
