@@ -466,19 +466,19 @@ button[type=submit] {
   }
 }
 
-/* Side Navbar( */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
 /* For screens that are 450px or smaller */
 @media screen and (max-width: 450px) {
   
+  #main-container {
+    max-width: 100%;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .main-section {
+    max-width: 100%;
+  }
+
   /* project on portfolio.html */
   .work {
     height: 180px;
@@ -486,7 +486,7 @@ button[type=submit] {
 
   /* resume button on contact.html */
   .btn-custom {
-    margin-left: 20%;
+    margin-left: 33%;
   }
 }
 
