@@ -8,9 +8,6 @@ body {
   color: #777;
   background: #ffffff;
 }
-.wrapper {
-  text-align: left;
-}
 
 .container {
   width: 100%;
@@ -145,7 +142,7 @@ h3,
   border: 1px solid #ddd;
 }
 
-/* portfolio page */
+/* projects on portfolio.html */
 .work {
   position: relative;
   float: left;
@@ -178,6 +175,7 @@ h3,
   border-bottom: 0;
 }
 
+/* Picture on index.html */
 .auth-image {
   float: left;
   width: 200px;
@@ -186,7 +184,13 @@ h3,
   margin-right: 25px;
 }
 
-/* contact page */
+/* Paragraph on index.html */
+.wrapper{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* contact form on contact.html */
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -225,6 +229,7 @@ button[type=submit] {
   border: 0 none;
 }
 
+ /* resume button on contact.html */
 .btn-custom {
   padding: 10px 30px;
   font-size: 18px;
@@ -249,7 +254,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /* Portfolio */
+  /* projects on portfolio.html */
   .work {
     width:100%;
   }
@@ -276,7 +281,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /* Portfolio */
+  /* projects on portfolio.html */
   .work {
     width:100%;
   }
@@ -303,7 +308,7 @@ button[type=submit] {
     margin-left: 5%;
   }
 
-  /* Portfolio */
+  /* projects on portfolio.html */
   .work {
     width:100%;
   }
@@ -315,7 +320,7 @@ button[type=submit] {
   }
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width: 980px) {
   * {
   box-sizing: border-box;
   }
@@ -345,12 +350,12 @@ button[type=submit] {
     text-align: center;
   }
 
-  .btn-custom {
-    width: 100%;
-    margin-left: 75%;
-  }
+  /* resume button on contact.html */
+ .btn-custom{
+   margin-left: 75%
+ }
 
-  /* Portfolio */
+  /* projects on portfolio.html */
   .work {
     width:100%;
   }
@@ -434,6 +439,7 @@ button[type=submit] {
     text-align: center;
   }
 
+  /* resume button on contact.html */
   .btn-custom {
     margin-left: 45%;
   }
@@ -467,5 +473,28 @@ button[type=submit] {
   }
   .sidenav a {
     font-size: 18px;
+  }
+}
+
+/* For screens that are 450px or smaller */
+@media screen and (max-width: 450px) {
+  
+  /* project on portfolio.html */
+  .work {
+    height: 180px;
+  }
+
+  /* resume button on contact.html */
+  .btn-custom {
+    margin-left: 20%;
+  }
+}
+
+/* For screens that are 425px or smaller */
+@media screen and (max-width: 425px) {
+
+  /* resume button on contact.html */
+  .btn-custom {
+    margin-left: 10%;
   }
 }
