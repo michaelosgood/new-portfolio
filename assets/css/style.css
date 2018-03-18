@@ -480,6 +480,13 @@ button[type=submit] {
   }
 }
 
+/* For screens that are 525px or smaller */
+@media screen and (max-width: 525px) {
+  .btn-custom {
+    margin-left: 35%;
+  }
+}
+
 /* For screens that are 450px or smaller */
 @media screen and (max-width: 450px) {
   body {
@@ -504,7 +511,7 @@ button[type=submit] {
 
   /* resume button on contact.html */
   .btn-custom {
-    margin-left: 33%;
+    margin-left: 47%;
   }
 }
 
@@ -514,5 +521,14 @@ button[type=submit] {
   /* resume button on contact.html */
   .btn-custom {
     margin-left: 43%;
+  }
+}
+
+  /* For screens that are 400px or smaller */
+@media screen and (max-width: 400px) {
+
+  /* resume button on contact.html */
+  .btn-custom {
+    margin-left: 39%;
   }
 }
