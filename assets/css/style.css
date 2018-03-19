@@ -16,6 +16,10 @@ body {
   clear: both;
 }
 
+#main {
+  background: #A9A9A9;
+}
+
 h1, h2, h3, p {
   margin-bottom: 20px;
 }
@@ -146,6 +150,7 @@ h3,
   padding-left: 3%;
 }
 
+/* Main Section */
 .main-section {
   float: left;
   width: 100%;
