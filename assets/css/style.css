@@ -371,7 +371,7 @@ button[type=submit] {
 
   /* resume button on contact.html */
  .btn-custom{
-   margin-left: 75%
+   margin-left: 75%;
  }
 
   /* projects on portfolio.html */
@@ -387,7 +387,25 @@ button[type=submit] {
   }
 }
 
-/* For screens that are smaller than 768px and larger than 640px*/
+@media screen and (max-width: 950px) {
+  .btn-custom {
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .btn-custom {
+    margin-left: 82%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .btn-custom {
+    margin-left: 90%;
+  }
+}
+
+
 @media screen and (max-width:768px) {
   #main-container {
     position: static;
@@ -440,7 +458,20 @@ button[type=submit] {
     font-size: 15px !important;
   }
 }
-/* For screens that are 640px or smaller */
+
+@media screen and (max-width: 680px) {
+  .btn-custom {
+    margin-left: 53%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .btn-custom {
+    margin-left: 54%;
+  }
+}
+
+
 @media screen and (max-width:640px) {
   #main-container {
     position: static;
@@ -485,14 +516,36 @@ button[type=submit] {
   }
 }
 
-/* For screens that are 525px or smaller */
+@media screen and (max-width: 600px) {
+  .btn-custom {
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .btn-custom {
+    margin-left: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .btn-custom {
+    margin-left: 40%;
+  }
+}
+
 @media screen and (max-width: 525px) {
   .btn-custom {
     margin-left: 35%;
   }
 }
 
-/* For screens that are 450px or smaller */
+@media screen and (max-width: 475px) {
+  .btn-custom {
+    margin-left: 25%;
+  }
+}
+
 @media screen and (max-width: 450px) {
   body {
     margin: -4% !important;
@@ -520,7 +573,6 @@ button[type=submit] {
   }
 }
 
-/* For screens that are 425px or smaller */
 @media screen and (max-width: 425px) {
 
   /* resume button on contact.html */
@@ -529,7 +581,6 @@ button[type=submit] {
   }
 }
 
-  /* For screens that are 400px or smaller */
 @media screen and (max-width: 400px) {
 
   /* resume button on contact.html */
